@@ -65,7 +65,7 @@ def estimate_head_pitch(frame):
 
     if delta < 0.05 * h:
         return "up"
-    elif delta > 0.2 * h:
+    elif delta > 0.7 * h:
         return "down"
     else:
         return "center"

@@ -100,9 +100,9 @@ while True:
     # ==== 7. Phân mức cảnh báo ====
     if suspicion_accum == 0:
         level = "✅ Normal"
-    elif suspicion_accum < 40:
+    elif suspicion_accum < 50:
         level = "⚠️ Low Suspicion"
-    elif suspicion_accum < 80:
+    elif suspicion_accum < 100:
         level = "❗ Medium Suspicion"
     else:
         level = "🚨 High Suspicion"
